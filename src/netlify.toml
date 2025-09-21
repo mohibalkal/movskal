@@ -1,0 +1,228 @@
+[build]
+  publish = "."
+  command = "echo 'Static site - no build needed'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# API redirects
+[[redirects]]
+  from = "/api/*"
+  to = "https://hls.ship.arlen.icu/api/:splat"
+  status = 200
+  force = false
+
+# Subtitle services
+[[redirects]]
+  from = "/opensubtitles/*"
+  to = "https://rest.opensubtitles.org/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/libre-subs/*"
+  to = "https://libre-subs.fifthwit.net/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/wyzie/*"
+  to = "https://wyzie.arlen.icu/:splat"
+  status = 200
+  force = false
+
+# Streaming proxies
+[[redirects]]
+  from = "/m3u8-proxy"
+  to = "https://hls.ship.arlen.icu/m3u8-proxy"
+  status = 200
+  force = false
+
+# Proxy all hahoy server requests through Netlify Functions
+[[redirects]]
+  from = "/halycon/*"
+  to = "/.netlify/functions/hahoy-server/halycon/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/twopack/*"
+  to = "/.netlify/functions/hahoy-server/twopack/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/wither/*"
+  to = "/.netlify/functions/hahoy-server/wither/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/trenches/*"
+  to = "/.netlify/functions/hahoy-server/trenches/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/berlin/*"
+  to = "/.netlify/functions/hahoy-server/berlin/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/wooter/*"
+  to = "/.netlify/functions/hahoy-server/wooter/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/meepet/*"
+  to = "/.netlify/functions/hahoy-server/meepet/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/umbra/*"
+  to = "/.netlify/functions/hahoy-server/umbra/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/aether/*"
+  to = "/.netlify/functions/hahoy-server/aether/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/autobahn/*"
+  to = "/.netlify/functions/hahoy-server/autobahn/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/cosmic/*"
+  to = "/.netlify/functions/hahoy-server/cosmic/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/dandy/*"
+  to = "/.netlify/functions/hahoy-server/dandy/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/drear/*"
+  to = "/.netlify/functions/hahoy-server/drear/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/floon/*"
+  to = "/.netlify/functions/hahoy-server/floon/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/stammer/*"
+  to = "/.netlify/functions/hahoy-server/stammer/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/quasar/*"
+  to = "/.netlify/functions/hahoy-server/quasar/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/nimbus/*"
+  to = "/.netlify/functions/hahoy-server/nimbus/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/clumsy/*"
+  to = "/.netlify/functions/hahoy-server/clumsy/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/florp/*"
+  to = "/.netlify/functions/hahoy-server/florp/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/shimmer/*"
+  to = "/.netlify/functions/hahoy-server/shimmer/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/bloop/*"
+  to = "/.netlify/functions/hahoy-server/bloop/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/cloudnestra/*"
+  to = "/.netlify/functions/hahoy-server/cloudnestra/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/soapertv/*"
+  to = "/.netlify/functions/hahoy-server/soapertv/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/mp4hydra/*"
+  to = "/.netlify/functions/hahoy-server/mp4hydra/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/webtor/*"
+  to = "/.netlify/functions/hahoy-server/webtor/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/mp4/*"
+  to = "/.netlify/functions/hahoy-server/mp4/:splat"
+  status = 200
+  force = false
+
+# Map pass-through and savingshub to their origins to avoid CORS
+## Passthrough handled via Netlify Function now
+
+[[redirects]]
+  from = "/savingshub/*"
+  to = "https://savingshub.online/:splat"
+  status = 200
+  force = false
+
+# Subtitle API redirects
+[[redirects]]
+  from = "/libre-subs/*"
+  to = "https://libre-subs.fifthwit.net/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/opensubtitles/*"
+  to = "https://opensubtitles.org/:splat"
+  status = 200
+  force = false
+
+# SPA routing - serve index.html for all routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

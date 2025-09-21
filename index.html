@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/apple-icon-180.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="description" content="Streaming movies and TV shows" />
+    <!-- Preload critical assets -->
+    <!-- Removed logo.jpeg preload as file doesn't exist -->
+
+    <title>ALKAL</title>
+    <script>
+      // URL and base path for easier debugging in console
+      window.appBaseUrl = window.location.origin;
+      try {
+        window.appBasePath = import.meta.env?.BASE_URL || "/";
+      } catch (e) {
+        window.appBasePath = "/";
+      }
+      
+      // Disable Service Worker debugging to prevent debug window from appearing
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.addEventListener('message', (event) => {
+          if (event.data && event.data.type === 'DISABLE_DEBUG') {
+            // Prevent debug window from appearing
+            console.log('Service Worker debugging disabled');
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="https://cdn.gpteng.co/gptengineer.js" defer></script>
+  </body>
+</html>

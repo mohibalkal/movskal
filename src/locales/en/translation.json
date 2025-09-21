@@ -1,0 +1,871 @@
+{
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your viewing experience: theme, language, font, and accent color.",
+    "appearance": "Appearance",
+    "language": "Language",
+    "typography": "Typography",
+    "theme": "Theme",
+    "light": "Light",
+    "system": "System",
+    "dark": "Dark",
+    "useSystemTheme": "Use system theme",
+    "accentColor": "Accent Color",
+    "accentColorDescription": "Choose an accent color to personalize your experience",
+    "themePalette": {
+      "title": "Theme Palette",
+      "description": "Choose a color scheme for your entire site",
+      "graphite": "Graphite",
+      "midnight": "Midnight",
+      "emerald": "Emerald",
+      "plum": "Plum"
+    },
+    "contentLanguage": "Content Language",
+    "selectLanguage": "Select language",
+    "chooseLanguage": "Choose language",
+    "languageDescription": "Used for fetching metadata and recommendations where applicable.",
+    "fontFamily": "Font Family",
+    "chooseFont": "Choose font",
+    "selectFont": "Select font",
+    "preview": "Preview text",
+    "typographyTips": "Typography Tips",
+    "tip1": "Use system fonts for best performance.",
+    "tip2": "Serif fonts like Playfair enhance headings.",
+    "tip3": "Ensure good contrast with your accent color."
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "cancelSelection": "Cancel Selection",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "selectItems": "Select Items",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "deleteSelected": "Delete Selected",
+    "add": "Add",
+    "remove": "Remove",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "user": "User"
+  },
+  "navigation": {
+    "home": "Home",
+    "movies": "Movies",
+    "tvShows": "TV Shows",
+    "sports": "Sports",
+    "search": "Search",
+    "profile": "Profile",
+    "settings": "Settings",
+    "watchHistory": "Watch History",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "userMenu": "User menu",
+    "trending": "Trending",
+    "allMovies": "All Movies",
+    "allTVShows": "All TV Shows",
+    "foreignMovies": "Foreign Movies",
+    "arabicMovies": "Arabic Movies",
+    "foreignTVShows": "Foreign TV Shows",
+    "arabicTVShows": "Arabic TV Shows"
+  },
+  "home": {
+    "title": "Welcome to ALKAL",
+    "subtitle": "Your ultimate streaming destination for movies, TV shows, and live sports",
+    "trending": "Trending Now",
+    "featured": "Featured Content",
+    "recentlyAdded": "Recently Added",
+    "continueWatching": "Continue Watching",
+    "recommendations": "Recommended for You",
+    "exploreMore": "Explore More",
+    "getStarted": "Get Started",
+    "hero": {
+      "watch": "Watch",
+      "moreInfo": "More Info"
+    },
+    "continueWatching": {
+      "title": "Continue Watching",
+      "continue": "Continue",
+      "viewDetails": "View details",
+      "recently": "Recently",
+      "remaining": "remaining"
+    },
+    "sections": {
+      "trendingNow": "Trending Now",
+      "popularMovies": "Popular Movies",
+      "popularTV": "Popular TV Shows",
+      "topRatedTV": "Top Rated TV Shows",
+      "basedOnTrueStories": "Based on True Stories",
+      "action": "Action",
+      "comedy": "Comedy",
+      "drama": "Drama",
+      "thriller": "Thriller",
+      "sciFi": "Sci-Fi",
+      "horror": "Horror",
+      "romance": "Romance",
+      "animation": "Animation",
+      "family": "Family",
+      "documentary": "Documentary",
+      "mystery": "Mystery",
+      "fantasy": "Fantasy",
+      "bingeSeries": "Binge-Worthy Series",
+      "moviesForKids": "Movies for Kids",
+      "hollywood": "Hollywood",
+      "bollywood": "Bollywood",
+      "koreanDramas": "Korean Dramas",
+      "japaneseAnime": "Japanese Anime",
+      "europeanCinema": "European Cinema",
+      "youTubeOriginals": "YouTube Originals",
+      "hboMax": "HBO Max",
+      "peacock": "Peacock",
+      "crunchyroll": "Crunchyroll"
+    }
+  },
+  "trendingPage": {
+    "title": "Trending",
+    "tabs": { "day": "Today", "week": "This Week" },
+    "error": "Error loading trending content. Please try again.",
+    "todayTitle": "Trending Today",
+    "weekTitle": "Trending This Week",
+    "loading": "Loading...",
+    "showMore": "Show More"
+  },
+  "movies": {
+    "title": "Movies",
+    "subtitle": "Discover the latest and greatest films",
+    "genres": "Genres",
+    "year": "Year",
+    "rating": "Rating",
+    "duration": "Duration",
+    "cast": "Cast",
+    "director": "Director",
+    "synopsis": "Synopsis",
+    "trailer": "Trailer",
+    "watchNow": "Watch Now",
+    "addToList": "Add to List",
+    "removeFromList": "Remove from List",
+    "share": "Share",
+    "download": "Download",
+    "quality": "Quality",
+    "language": "Language",
+    "subtitles": "Subtitles"
+  },
+  "moviesPage": {
+    "title": "Foreign Movies",
+    "tabs": { "popular": "Popular", "topRated": "Top Rated" },
+    "filters": {
+      "sortBy": "Sort By",
+      "default": "Default",
+      "title": "Title",
+      "releaseDate": "Release Date",
+      "rating": "Rating",
+      "genre": "Filter by Genre",
+      "allGenres": "All Genres"
+    },
+    "genres": {
+      "action": "Action",
+      "adventure": "Adventure",
+      "comedy": "Comedy",
+      "drama": "Drama",
+      "horror": "Horror",
+      "romance": "Romance",
+      "sciFi": "Sci-Fi"
+    },
+    "view": { "list": "List View", "grid": "Grid View" },
+    "sections": { "popular": "Popular Movies", "topRated": "Top Rated Movies" },
+    "error": "Error loading movies. Please try again.",
+    "loading": "Loading...",
+    "showMore": "Show More"
+  },
+  "tvShows": {
+    "title": "Foreign TV Shows",
+    "subtitle": "Binge-watch your favorite series",
+    "tabs": { "popular": "Popular", "topRated": "Top Rated", "trending": "Trending" },
+    "filters": {
+      "sortBy": "Sort By",
+      "default": "Default",
+      "name": "Name",
+      "firstAirDate": "First Air Date",
+      "rating": "Rating",
+      "genre": "Filter by Genre",
+      "allGenres": "All Genres"
+    },
+    "view": { "list": "List View", "grid": "Grid View" },
+    "sections": {
+      "popular": "Popular TV Shows",
+      "topRated": "Top Rated TV Shows",
+      "trending": "Trending TV Shows"
+    },
+    "error": "Error loading TV shows. Please try again.",
+    "platform": {
+      "showingOn": "Showing on:",
+      "clearAll": "Clear all",
+      "button": "Platforms",
+      "menuTitle": "Streaming Platforms",
+      "clearPlatforms": "Clear Platforms",
+      "showBar": "Show Platform Bar",
+      "hideBar": "Hide Platform Bar"
+    },
+    "genres": {
+      "all": "All Genres",
+      "actionAdventure": "Action & Adventure",
+      "comedy": "Comedy",
+      "drama": "Drama",
+      "sciFiFantasy": "Sci-Fi & Fantasy",
+      "crime": "Crime",
+      "mystery": "Mystery",
+      "kids": "Kids"
+    },
+    "seasons": "Seasons",
+    "episodes": "Episodes",
+    "episode": "Episode",
+    "season": "Season",
+    "airDate": "Air Date",
+    "network": "Network",
+    "status": "Status",
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "nextEpisode": "Next Episode",
+    "previousEpisode": "Previous Episode"
+  },
+  "sports": {
+    "title": "Sports",
+    "subtitle": "Live sports and highlights",
+    "live": "Live",
+    "upcoming": "Upcoming",
+    "results": "Results",
+    "highlights": "Highlights",
+    "teams": "Teams",
+    "players": "Players",
+    "scores": "Scores",
+    "schedule": "Schedule",
+    "standings": "Standings",
+    "news": "News",
+    "favorites": "Favorites"
+  },
+  "sportsPage": {
+    "title": "Sports",
+    "subtitle": "Stream live and upcoming sports events from around the world.",
+    "allSports": "All Sports",
+    "hideFilters": "Hide Filters",
+    "sortBy": "Sort by:",
+    "sort": { "time": "Time", "relevance": "Relevance" },
+    "searchPlaceholder": "Search for matches...",
+    "tabs": { "popular": "Popular", "live": "Live", "all": "All" },
+    "empty": {
+      "popularAll": "No popular matches available at the moment.",
+      "popularOf": "No popular {{sport}} matches available.",
+      "liveAll": "No live matches available at the moment.",
+      "liveOf": "No live {{sport}} matches right now.",
+      "todayAll": "No matches scheduled for today.",
+      "todayOf": "No {{sport}} matches available."
+    },
+    "errorTitle": "Error",
+    "errorDescription": "Failed to load sports. Please try again later."
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search for movies, TV shows, sports...",
+    "noResults": "No results found",
+    "tryDifferent": "Try different keywords",
+    "searchHistory": "Search History",
+    "clearHistory": "Clear History",
+    "popularSearches": "Popular Searches",
+    "filters": "Filters",
+    "sortBy": "Sort By",
+    "relevance": "Relevance",
+    "date": "Date",
+    "rating": "Rating",
+    "fieldTitle": "Title",
+    "shortcutTitle": "Search Shortcut",
+    "shortcutDescription": "Press / anytime to quickly search",
+    "errorTitle": "Search Error",
+    "errorDescription": "Failed to retrieve search results. Please try again.",
+    "navigatingTitle": "Navigating...",
+    "navigatingDescription": "Going to {{name}}",
+    "pageHeading": "Search",
+    "searchButton": "Search",
+    "advancedSearch": "Advanced Search",
+    "mediaType": "Media Type",
+    "selectMediaType": "Select media type",
+    "options": { "all": "All", "movies": "Movies", "tvShows": "TV Shows" },
+    "sortOptions": { "popularity": "Popularity", "rating": "Rating", "newest": "Newest" },
+    "loadingResults": "Loading results...",
+    "resultsFor": "Results for \"{{query}}\"",
+    "showMore": "Show More",
+    "showingCount": "Showing {{displayed}} of {{total}} results",
+    "tips": {
+      "title": "Search Tips",
+      "useAdvanced": "Use the advanced search options to filter by media type and sort results",
+      "pressSlash": "Press the \"/\" key anywhere on the site to quickly focus the search bar",
+      "specificTerms": "Try using more specific terms for better results",
+      "useSuggestions": "Use the search suggestions that appear as you type"
+    },
+    "empty": {
+      "prompt": "Enter a search term to find movies and TV shows",
+      "proTip": "Pro tip: Press \"/\" anywhere to quickly search"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "preferences": "Preferences",
+    "watchHistory": "Watch History",
+    "favorites": "Favorites",
+    "lists": "My Lists",
+    "account": "Account Settings",
+    "privacy": "Privacy",
+    "notifications": "Notifications",
+    "subscription": "Subscription",
+    "billing": "Billing",
+    "help": "Help & Support",
+    "about": "About",
+    "terms": "Terms of Service",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "profilePage": {
+    "yourPreferences": "Your Preferences",
+    "watchHistoryStatus": {
+      "enabled": "Your watch history is being recorded",
+      "disabled": "Your watch history is not being recorded"
+    },
+    "featureNotifications": {
+      "title": "Feature Notifications",
+      "description": "Get notified about new features and updates",
+      "toggleAria": "Toggle feature notifications"
+    },
+    "displayOverride": {
+      "title": "Display Override",
+      "description": "Select the display mode for the app",
+      "selectMode": "Select mode",
+      "modes": {
+        "fullscreen": "Fullscreen",
+        "minimalUi": "Minimal UI",
+        "browser": "Browser",
+        "standalone": "Standalone"
+      }
+    }
+  },
+  "watchHistoryPage": {
+    "headings": { "history": "Your Watch History", "favorites": "Your Favorites", "watchlist": "Your Watchlist" },
+    "tabs": { "history": "History", "favorites": "Favorites", "watchlist": "Watchlist" },
+    "sort": { "newest": "Newest First", "oldest": "Oldest First" },
+    "actions": { "clearHistory": "Clear History", "removedFromFavorites": "Removed from favorites", "removedFromWatchlist": "Removed from watchlist" },
+    "empty": {
+      "historyTitle": "No watch history yet",
+      "historyDescription": "Start watching movies and shows to build your history.",
+      "favoritesTitle": "No favorites yet",
+      "favoritesDescription": "Add movies and shows to your favorites for quick access.",
+      "watchlistTitle": "Your watchlist is empty",
+      "watchlistDescription": "Add movies and shows to your watchlist to watch later.",
+      "browse": "Browse Content"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "createAccountTitle": "Create an account",
+    "createAccountSubtitle": "Enter your email below to create your account",
+    "createAccount": "Create account",
+    "creatingAccount": "Creating account...",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "passwordMismatch": "Passwords do not match",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "rememberMe": "Remember Me",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInWith": "Sign in with",
+    "signUpWith": "Sign up with",
+    "orContinueWith": "Or continue with",
+    "or": "or",
+    "welcomeBackTitle": "Welcome back",
+    "signInSubtitle": "Sign in to your account to continue",
+    "signingIn": "Signing in...",
+    "errors": {
+      "invalidEmail": "Invalid email address.",
+      "userDisabled": "This user account has been disabled.",
+      "userNotFound": "No user found with this email.",
+      "wrongPassword": "Incorrect password.",
+      "tooManyRequests": "Too many failed attempts. Please try again later.",
+      "genericError": "An error occurred. Please try again."
+    },
+    "loginSuccess": "Login successful!",
+    "signupSuccess": "Account created successfully!",
+    "logoutSuccess": "Logged out successfully!",
+    "logoutSuccessDescription": "You have been successfully signed out.",
+    "logoutFailed": "Failed to sign out. Please try again."
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "volume": "Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "quality": "Quality",
+    "subtitles": "Subtitles",
+    "audio": "Audio",
+    "speed": "Playback Speed",
+    "rewind": "Rewind",
+    "fastForward": "Fast Forward",
+    "skipIntro": "Skip Intro",
+    "nextEpisode": "Next Episode",
+    "previousEpisode": "Previous Episode",
+    "videoSources": "Video Sources",
+    "selectSource": "Select your preferred streaming source",
+    "viewDetails": "View Details",
+    "episodeNavigation": "Episode Navigation",
+    "previous": "Previous",
+    "next": "Next",
+    "aired": "Aired",
+    "of": "of",
+    "sourceChanged": "Source Changed",
+    "switchedTo": "Switched to {{name}}",
+    "newSource": "new source",
+    "selectSourceAria": "Select {{name}} video source",
+    "currentlyActive": "Currently active",
+    "clickToSelect": "Click to select",
+    "back": "Back",
+    "iframeLoadError": "Failed to load iframe content"
+  },
+  "errors": {
+    "general": "An unexpected error occurred",
+    "network": "Network error",
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized to access this",
+    "forbidden": "Access forbidden",
+    "serverError": "Server error",
+    "serviceWorker": {
+      "title": "Service Worker Error",
+      "description": "There was a problem with the service worker. Some features may not work properly.",
+      "retry": "Retry",
+      "unknownError": "Unknown error",
+      "dismiss": "Dismiss"
+    }
+  },
+  "footer": {
+    "about": "ALKAL V2.0",
+    "aboutDescription": "Discover and enjoy the best movies and TV shows all in one place. ALKAL V2.0 helps you find, explore, and watch your favorite content online.",
+    "downloadApp": "Download our mobile app",
+    "explore": "Explore",
+    "connect": "Connect",
+    "legal": "Legal",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "dmcaNotice": "DMCA Notice",
+    "contentRemoval": "Content Removal",
+    "copyright": "Built with ❤️ by the community. ALKAL V2.0. All rights reserved 2025 ©",
+    "disclaimer": "This site does not store any files on its server. All contents are provided by non-affiliated third parties.",
+    "poweredBy": "Powered by"
+  },
+  "notifications": {
+    "serviceWorker": {
+      "issueDetected": "Service Worker Issue Detected",
+      "issueDescription": "There might be issues with offline functionality. Updating might help resolve the problem.",
+      "updateAvailable": "Update Available",
+      "updateDescription": "A new version is available. Update now to fix service worker issues and get the latest features.",
+      "updateNow": "Update Now",
+      "later": "Later"
+    },
+    "pwa": {
+      "installTitle": "Install App?",
+      "installDescription": "Install this app for offline access and a better experience.",
+      "installButton": "Install",
+      "installedMessage": "The app has been installed successfully!",
+      "installStarted": "Installation Started",
+      "installStartedMessage": "The app installation has started.",
+      "installCancelled": "Installation Cancelled",
+      "installCancelledMessage": "You can install the app later from the menu.",
+      "installFailed": "Installation Failed",
+      "installFailedMessage": "There was an error installing the app. Please try again.",
+      "installUnavailable": "Install Unavailable",
+      "installUnavailableMessage": "The install prompt is not available in this environment. In production, this button will trigger the PWA install dialog when eligible.",
+      "successfullyInstalled": "Successfully Installed",
+      "dismissPrompt": "Dismiss install prompt"
+    }
+  },
+  "toast": {
+    "notifications": {
+      "enabled": "Notifications enabled",
+      "enabledDescription": "You'll receive notifications about new features and updates",
+      "disabled": "Notifications disabled",
+      "disabledDescription": "You won't receive notifications about new features and updates"
+    },
+    "preferences": {
+      "updated": "Preferences updated",
+      "updatedDescription": "Your preferences have been saved successfully.",
+      "errorSaving": "Error saving preferences",
+      "errorSavingDescription": "There was a problem saving your preferences.",
+      "errorSettingUp": "Error setting up preferences",
+      "errorSettingUpDescription": "Please make sure you're signed in and try again. If the problem persists, try signing out and back in.",
+      "errorLoading": "Error loading preferences",
+      "errorLoadingDescription": "Please make sure you're signed in and try again. If the problem persists, try signing out and back in."
+    },
+    "watchHistory": {
+      "enabled": "Watch History Enabled",
+      "enabledDescription": "Your watch history will now be recorded",
+      "disabled": "Watch History Disabled",
+      "disabledDescription": "Your watch history will no longer be recorded"
+    },
+    "theme": {
+      "updated": "Theme Updated",
+      "updatedDescription": "Your color preference has been saved and applied.",
+      "errorUpdating": "Error",
+      "errorUpdatingDescription": "Failed to update theme color. Please try again."
+    },
+    "font": {
+      "updated": "Font updated",
+      "updatedDescription": "Your font preference has been saved and applied.",
+      "errorUpdating": "Error",
+      "errorUpdatingDescription": "Failed to update font. Please try again."
+    }
+  },
+  "debug": {
+    "serviceWorker": {
+      "title": "Service Worker Debug",
+      "refreshStatus": "Refresh Status",
+      "minimizePanel": "Minimize Panel",
+      "status": "Status",
+      "events": "Events",
+      "performance": "Performance",
+      "network": "Network",
+      "controller": "Controller",
+      "iframeProxyBypass": "Iframe Proxy Bypass",
+      "toggleIframeProxyBypass": "Toggle iframe proxy bypass",
+      "activeState": "Active State",
+      "waitingState": "Waiting State",
+      "applyUpdate": "Apply Update",
+      "logLevel": "Log Level",
+      "debug": "Debug",
+      "info": "Info",
+      "warn": "Warning",
+      "error": "Error",
+      "cacheHits": "Cache Hits",
+      "cacheMisses": "Cache Misses",
+      "networkRequests": "Network Requests",
+      "cacheSize": "Cache Size",
+      "online": "Online",
+      "offline": "Offline"
+    }
+  },
+  "chatbot": {
+    "suggestions": {
+      "title": "Suggestion",
+      "getRecommendations": "Get Recommendations",
+      "breakfastWeekend": "Looking for something to watch with breakfast?",
+      "breakfastWorkday": "Need a quick show recommendation before work?",
+      "afternoon": "How about a recommendation for this afternoon?",
+      "eveningWeekend": "Looking for a movie for weekend night?",
+      "eveningWorkday": "Need something to unwind after work?",
+      "lateNight": "Late night viewing recommendations?",
+      "searchPlaceholder": "Search for movies or shows...",
+      "askPlaceholder": "Ask for recommendations...",
+      "quickReplies": {
+        "comedy": "Comedy",
+        "sciFi": "Sci-Fi",
+        "action": "Action",
+        "drama": "Drama",
+        "randomSuggestion": "Random Suggestion"
+      }
+    },
+    "window": {
+      "title": "CineMate",
+      "welcome": "Welcome to CineMate! 🎬",
+      "description": "I can recommend movies and TV shows tailored to your tastes, or help you discover something new.",
+      "whatICanHelp": "What I can help you with:",
+      "features": {
+        "moodRecommendations": "Get instant recommendations based on your mood",
+        "searchTrending": "Search trending, top-rated, or new releases",
+        "addWatchlist": "Add movies to your watchlist for later",
+        "trackHistory": "Track your watch history",
+        "advancedSearch": "Advanced search by genre, rating, or year"
+      },
+      "trySaying": "Try saying:",
+      "examples": {
+        "comedy": "Suggest a feel-good comedy for the weekend",
+        "sciFi": "Show me trending sci-fi movies",
+        "watchlist": "Add Inception to my watchlist"
+      }
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "educationalNotice": {
+      "title": "Educational Demonstration Notice",
+      "description": "This application is strictly an educational demonstration project. We do not host, store, or distribute any media content. All content is fetched from third-party APIs for demonstration purposes only."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using this educational demonstration, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use this application."
+      },
+      "serviceDescription": {
+        "title": "2. Service Description",
+        "content": "This is a frontend demonstration project that interfaces with third-party APIs to showcase programming concepts and techniques. The service may be discontinued at any time without notice."
+      },
+      "disclaimer": {
+        "title": "3. Disclaimer of Responsibility",
+        "content": "We are not responsible for any content displayed through third-party APIs. We do not verify, endorse, or take responsibility for any content shown through our demonstration interface."
+      },
+      "thirdPartyContent": {
+        "title": "4. Third-Party Content",
+        "content": "All media content displayed is sourced from third-party APIs. Rights to such content belong to their respective owners. We do not claim ownership of any media content displayed through our interface."
+      },
+      "noWarranties": {
+        "title": "5. No Warranties",
+        "content": "This service is provided \"as is\" without any warranties of any kind. We do not guarantee the availability, accuracy, or continuity of the service as this is purely for educational demonstration."
+      },
+      "limitationOfLiability": {
+        "title": "6. Limitation of Liability",
+        "content": "We shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use this educational demonstration."
+      },
+      "changesToTerms": {
+        "title": "7. Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time without prior notice. Continued use of the service after any such changes constitutes your acceptance of the new terms."
+      }
+    },
+    "lastUpdated": "Last updated: March 26, 2025"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "educationalNotice": {
+      "title": "Educational Demonstration Notice",
+      "description": "This application is an educational demonstration that uses third-party APIs. We prioritize your privacy while demonstrating frontend development concepts."
+    },
+    "sections": {
+      "informationCollection": {
+        "title": "1. Information Collection",
+        "description": "We collect minimal information necessary for the educational demonstration:",
+        "items": {
+          "0": "Basic account information (if you choose to create an account)",
+          "1": "Watch history and preferences (stored locally)",
+          "2": "Usage analytics for demonstration purposes"
+        }
+      },
+      "useOfInformation": {
+        "title": "2. Use of Information",
+        "description": "The information collected is used solely to:",
+        "items": {
+          "0": "Demonstrate user authentication features",
+          "1": "Showcase personalization capabilities",
+          "2": "Improve the educational demonstration"
+        }
+      },
+      "thirdPartyServices": {
+        "title": "3. Third-Party Services",
+        "content": "Our demonstration interfaces with third-party APIs. We do not control and are not responsible for their privacy practices. Users should review the privacy policies of these services."
+      },
+      "dataStorage": {
+        "title": "4. Data Storage",
+        "content": "Most user preferences and watch history are stored locally in your browser. Any server-side data may be deleted at any time as this is a demonstration project."
+      },
+      "dataSecurity": {
+        "title": "5. Data Security",
+        "content": "While we implement reasonable security measures, this is an educational demonstration and should not be used for sensitive information."
+      },
+      "yourRights": {
+        "title": "6. Your Rights",
+        "description": "You can:",
+        "items": {
+          "0": "Access your stored information",
+          "1": "Delete your account and associated data",
+          "2": "Clear local storage and cookies"
+        }
+      },
+      "childrensPrivacy": {
+        "title": "7. Children's Privacy",
+        "content": "This educational demonstration is not intended for children under 13. We do not knowingly collect information from children under 13."
+      }
+    },
+    "lastUpdated": "Last updated: March 26, 2025"
+  },
+  "dmcaNotice": {
+    "title": "DMCA Notice",
+    "importantNotice": {
+      "title": "Important Notice",
+      "description": "This is an educational demonstration project that does not host any content. All content is fetched from third-party APIs. DMCA notices should be directed to the respective content owners or hosting services."
+    },
+    "sections": {
+      "ourRole": {
+        "title": "Our Role",
+        "description": "This application is a frontend demonstration that:",
+        "items": {
+          "0": "Does not host or store any media content",
+          "1": "Uses third-party APIs for educational purposes only",
+          "2": "Has no control over the content provided by these APIs",
+          "3": "May be discontinued at any time"
+        }
+      },
+      "thirdPartyContent": {
+        "title": "Third-Party Content",
+        "description": "For any copyright concerns:",
+        "items": {
+          "0": "Identify the specific content in question",
+          "1": "Contact the actual hosting service or content owner",
+          "2": "Submit DMCA notices to the appropriate content provider"
+        }
+      },
+      "contactInformation": {
+        "title": "Contact Information",
+        "content": "While we do not host content, if you have questions about our educational demonstration, contact us at:",
+        "email": "Email: demo@example.com (for demonstration purposes only)"
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "We are not responsible for any content displayed through third-party APIs. This is purely an educational demonstration of frontend development techniques."
+    },
+    "lastUpdated": "Last updated: March 26, 2025"
+  },
+  "contentRemoval": {
+    "title": "Content Removal",
+    "educationalNotice": {
+      "title": "Educational Project Notice",
+      "description": "This is an educational demonstration project. We do not host or store any media content. All content removal requests should be directed to the appropriate content owners or hosting services."
+    },
+    "sections": {
+      "understandingRole": {
+        "title": "Understanding Our Role",
+        "description": "As an educational frontend demonstration:",
+        "items": {
+          "0": "We do not host any media content",
+          "1": "Content is displayed through third-party APIs",
+          "2": "We have no control over the content provided by these services",
+          "3": "This project is for educational purposes only"
+        }
+      },
+      "howToRemove": {
+        "title": "How to Remove Content",
+        "description": "If you wish to have content removed:",
+        "steps": {
+          "0": "Identify the specific content in question",
+          "1": "Determine which third-party service is hosting the content",
+          "2": "Contact the appropriate content host or owner directly",
+          "3": "Follow their content removal procedures"
+        }
+      },
+      "thirdPartyServices": {
+        "title": "Third-Party Services",
+        "content": "Content removal requests should be directed to the respective content owners or hosting services. We cannot process content removal requests as we do not host or control any media content."
+      },
+      "importantNote": {
+        "title": "Important Note",
+        "content": "This application may be discontinued at any time as it exists solely for educational and demonstration purposes. We are not responsible for any content displayed through third-party APIs."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions about this educational demonstration, contact:",
+        "email": "Email: demo@example.com (for demonstration purposes only)"
+      }
+    },
+    "lastUpdated": "Last updated: March 26, 2025"
+  },
+  "media": {
+    "play": "Play",
+    "addToFavorites": "Add to Favorites",
+    "inFavorites": "In Favorites",
+    "addToWatchlist": "Add to Watchlist",
+    "inWatchlist": "In Watchlist",
+    "tabs": {
+      "about": "About",
+      "cast": "Cast",
+      "reviews": "Reviews",
+      "downloads": "Downloads",
+      "episodes": "Episodes"
+    },
+    "status": "Status",
+    "budget": "Budget",
+    "revenue": "Revenue",
+    "productionCompanies": "Production Companies",
+    "episodes": "Episodes",
+    "userReviews": "User Reviews",
+    "downloadMovie": "Download Movie",
+    "downloadEpisodes": "Download Episodes",
+    "downloadOptions": "Download Options",
+    "fetchDownloads": "Fetch Downloads",
+    "fetchingDownloads": "Fetching Downloads...",
+    "availableDownloads": "Available Downloads",
+    "loadingEpisodes": "Loading episodes...",
+    "selectEpisode": "Select Episode",
+    "noEpisodesAvailable": "No episodes available",
+    "moreLikeThis": "More Like This",
+    "noCast": "No cast information available.",
+    "noImage": "No Image",
+    "loading": "Loading...",
+    "movieNotFound": "Movie not found",
+    "returnHome": "Return to Home"
+  },
+  "tv": {
+    "playLatestEpisode": "Play Latest Episode",
+    "continue": "Continue S{{season}} E{{episode}} ({{progress}}%)",
+    "seasonsAndEpisodes": "Seasons & Episodes",
+    "episodes": "episodes",
+    "selectSeason": "Select Season:",
+    "season": "Season",
+    "episode": "Episode",
+    "watched": "watched",
+    "episodesSection": "Episodes",
+    "noImage": "No image available",
+    "noOverview": "No overview available.",
+    "playEpisode": "Play Episode",
+    "noEpisodesForSeason": "No episodes available for Season {{season}}.",
+    "viewSeason": "View Season {{season}}",
+    "prevSeasons": "Previous seasons",
+    "nextSeasons": "Next seasons"
+  },
+  "actor": {
+    "title": "Actor Details",
+    "biography": "Biography",
+    "birthday": "Birthday",
+    "placeOfBirth": "Place of Birth",
+    "popularity": "Popularity",
+    "knownFor": "Known For",
+    "filmography": "Filmography",
+    "movies": "Movies",
+    "tvShows": "TV Shows",
+    "deceased": "Deceased",
+    "unknown": "Unknown",
+    "clickToViewWorks": "Click to view actor's works",
+    "noWorksFound": "No works found",
+    "loadingWorks": "Loading works...",
+    "allWorks": "All Works",
+    "recentWorks": "Recent Works",
+    "popularWorks": "Popular Works"
+  },
+  "arabic": {
+    "movies": {
+      "title": "Arabic Movies",
+      "popular": "Popular Movies",
+      "noMovies": "No Arabic movies available at the moment"
+    },
+    "tvShows": {
+      "title": "Arabic TV Shows",
+      "popular": "Popular TV Shows",
+      "noShows": "No Arabic TV shows available at the moment"
+    }
+  }
+}

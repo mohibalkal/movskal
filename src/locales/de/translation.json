@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Passen Sie Ihr Seherlebnis an: Thema, Sprache, Schriftart und Akzentfarbe.",
+    "appearance": "Erscheinungsbild",
+    "language": "Sprache",
+    "typography": "Typografie",
+    "theme": "Thema",
+    "dark": "Dunkel",
+    "useSystemTheme": "Systemthema verwenden",
+    "accentColor": "Akzentfarbe",
+    "contentLanguage": "Inhaltssprache",
+    "selectLanguage": "Sprache auswählen",
+    "chooseLanguage": "Sprache wählen",
+    "languageDescription": "Wird zum Abrufen von Metadaten und Empfehlungen verwendet, wo zutreffend.",
+    "fontFamily": "Schriftfamilie",
+    "chooseFont": "Schriftart wählen",
+    "selectFont": "Schriftart auswählen",
+    "preview": "Textvorschau",
+    "typographyTips": "Typografie-Tipps",
+    "tip1": "Verwenden Sie Systemschriften für beste Leistung.",
+    "tip2": "Serif-Schriften wie Playfair verbessern Überschriften.",
+    "tip3": "Stellen Sie einen guten Kontrast zu Ihrer Akzentfarbe sicher."
+  },
+  "common": {
+    "loading": "Laden...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "cancelSelection": "Auswahl abbrechen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "movies": "Filme",
+    "tvShows": "TV-Shows",
+    "sports": "Sport",
+    "search": "Suche",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "watchHistory": "Anzeigeverlauf",
+    "signOut": "Abmelden",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "trending": "Trends"
+  }
+  ,
+  "auth": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "createAccountTitle": "Konto erstellen",
+    "createAccountSubtitle": "Geben Sie unten Ihre E-Mail ein, um Ihr Konto zu erstellen",
+    "createAccount": "Konto erstellen",
+    "creatingAccount": "Konto wird erstellt...",
+    "email": "E-Mail",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "password": "Passwort",
+    "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+    "confirmPassword": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "Bestätigen Sie Ihr Passwort",
+    "passwordMismatch": "Passwörter stimmen nicht überein",
+    "alreadyHaveAccount": "Sie haben bereits ein Konto?",
+    "orContinueWith": "Oder weiter mit",
+    "welcomeBackTitle": "Willkommen zurück",
+    "signInSubtitle": "Melden Sie sich bei Ihrem Konto an, um fortzufahren",
+    "signingIn": "Anmeldung läuft...",
+    "errors": {
+      "invalidEmail": "Ungültige E-Mail-Adresse.",
+      "userDisabled": "Dieses Benutzerkonto wurde deaktiviert.",
+      "userNotFound": "Kein Benutzer mit dieser E-Mail gefunden.",
+      "wrongPassword": "Falsches Passwort.",
+      "tooManyRequests": "Zu viele fehlgeschlagene Versuche. Bitte versuchen Sie es später erneut.",
+      "genericError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  }
+}

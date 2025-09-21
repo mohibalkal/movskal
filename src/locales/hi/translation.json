@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "title": "सेटिंग्स",
+    "subtitle": "अपने देखने के अनुभव को अनुकूलित करें: थीम, भाषा, फ़ॉन्ट और एक्सेंट रंग।",
+    "appearance": "दिखावट",
+    "language": "भाषा",
+    "typography": "टाइपोग्राफी",
+    "theme": "थीम",
+    "dark": "डार्क",
+    "useSystemTheme": "सिस्टम थीम का उपयोग करें",
+    "accentColor": "एक्सेंट रंग",
+    "contentLanguage": "सामग्री की भाषा",
+    "selectLanguage": "भाषा चुनें",
+    "chooseLanguage": "भाषा चुनें",
+    "languageDescription": "जहां लागू हो, मेटाडेटा और सिफारिशें प्राप्त करने के लिए उपयोग किया जाता है।",
+    "fontFamily": "फ़ॉन्ट परिवार",
+    "chooseFont": "फ़ॉन्ट चुनें",
+    "selectFont": "फ़ॉन्ट चुनें",
+    "preview": "टेक्स्ट पूर्वावलोकन",
+    "typographyTips": "टाइपोग्राफी टिप्स",
+    "tip1": "बेहतर प्रदर्शन के लिए सिस्टम फ़ॉन्ट का उपयोग करें।",
+    "tip2": "Playfair जैसे सेरिफ़ फ़ॉन्ट शीर्षकों को बेहतर बनाते हैं।",
+    "tip3": "अपने एक्सेंट रंग के साथ अच्छा कंट्रास्ट सुनिश्चित करें।"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "cancelSelection": "चयन रद्द करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला"
+  },
+  "navigation": {
+    "home": "होम",
+    "movies": "फिल्में",
+    "tvShows": "टीवी शो",
+    "sports": "खेल",
+    "search": "खोज",
+    "profile": "प्रोफ़ाइل",
+    "settings": "सेटिंग्स",
+    "watchHistory": "देखने का इतिहास",
+    "signOut": "साइन आउट",
+    "signIn": "साइन इन",
+    "signUp": "साइन अप",
+    "trending": "ट्रेंडिंग"
+  }
+  ,
+  "auth": {
+    "login": "साइन इन",
+    "signup": "साइन अप",
+    "createAccountTitle": "खाता बनाएं",
+    "createAccountSubtitle": "अपना खाता बनाने के लिए नीचे अपना ईमेल दर्ज करें",
+    "createAccount": "खाता बनाएं",
+    "creatingAccount": "खाता बनाया जा रहा है...",
+    "email": "ईमेल",
+    "emailPlaceholder": "अपना ईमेल दर्ज करें",
+    "password": "पासवर्ड",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "confirmPasswordPlaceholder": "अपना पासवर्ड पुष्टि करें",
+    "passwordMismatch": "पासवर्ड मेल नहीं खाते",
+    "alreadyHaveAccount": "क्या आपके पास पहले से खाता है?",
+    "orContinueWith": "या इसके साथ जारी रखें",
+    "welcomeBackTitle": "वापसी पर स्वागत है",
+    "signInSubtitle": "जारी रखने के लिए अपने खाते में साइन इन करें",
+    "signingIn": "साइन इन किया जा रहा है...",
+    "errors": {
+      "invalidEmail": "अमान्य ईमेल पता।",
+      "userDisabled": "यह उपयोगकर्ता खाता अक्षम कर दिया गया है।",
+      "userNotFound": "इस ईमेल के साथ कोई उपयोगकर्ता नहीं मिला।",
+      "wrongPassword": "गलत पासवर्ड।",
+      "tooManyRequests": "बहुत अधिक असफल प्रयास। कृपया बाद में पुन: प्रयास करें।",
+      "genericError": "एक त्रुटि हुई। कृपया पुनः प्रयास करें।"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "İzleme deneyiminizi özelleştirin: tema, dil, yazı tipi ve vurgu rengi.",
+    "appearance": "Görünüm",
+    "language": "Dil",
+    "typography": "Tipografi",
+    "theme": "Tema",
+    "dark": "Koyu",
+    "useSystemTheme": "Sistem temasını kullan",
+    "accentColor": "Vurgu rengi",
+    "contentLanguage": "İçerik dili",
+    "selectLanguage": "Dil seçin",
+    "chooseLanguage": "Dil seçin",
+    "languageDescription": "Uygunsa meta verileri ve önerileri almak için kullanılır.",
+    "fontFamily": "Yazı tipi ailesi",
+    "chooseFont": "Yazı tipini seçin",
+    "selectFont": "Yazı tipini seçin",
+    "preview": "Metin önizlemesi",
+    "typographyTips": "Tipografi ipuçları",
+    "tip1": "En iyi performans için sistem yazı tiplerini kullanın.",
+    "tip2": "Playfair gibi serif yazı tipleri başlıkları geliştirir.",
+    "tip3": "Vurgu renginizle iyi kontrast sağlayın."
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "cancelSelection": "Seçimi iptal et",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "Sonraki",
+    "previous": "Önceki"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "movies": "Filmler",
+    "tvShows": "TV Şovları",
+    "sports": "Spor",
+    "search": "Ara",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "watchHistory": "İzleme geçmişi",
+    "signOut": "Çıkış yap",
+    "signIn": "Giriş yap",
+    "signUp": "Kayıt ol",
+    "trending": "Trendler"
+  }
+  ,
+  "auth": {
+    "login": "Giriş yap",
+    "signup": "Kayıt ol",
+    "createAccountTitle": "Hesap oluştur",
+    "createAccountSubtitle": "Hesabınızı oluşturmak için aşağıya e-postanızı girin",
+    "createAccount": "Hesap oluştur",
+    "creatingAccount": "Hesap oluşturuluyor...",
+    "email": "E-posta",
+    "emailPlaceholder": "E-postanızı girin",
+    "password": "Parola",
+    "passwordPlaceholder": "Parolanızı girin",
+    "confirmPassword": "Parolayı doğrula",
+    "confirmPasswordPlaceholder": "Parolanızı doğrulayın",
+    "passwordMismatch": "Parolalar eşleşmiyor",
+    "alreadyHaveAccount": "Zaten bir hesabınız var mı?",
+    "orContinueWith": "Veya bununla devam edin",
+    "welcomeBackTitle": "Tekrar hoş geldiniz",
+    "signInSubtitle": "Devam etmek için hesabınıza giriş yapın",
+    "signingIn": "Giriş yapılıyor...",
+    "errors": {
+      "invalidEmail": "Geçersiz e-posta adresi.",
+      "userDisabled": "Bu kullanıcı hesabı devre dışı bırakıldı.",
+      "userNotFound": "Bu e-posta ile kullanıcı bulunamadı.",
+      "wrongPassword": "Hatalı parola.",
+      "tooManyRequests": "Çok fazla başarısız deneme. Lütfen daha sonra tekrar deneyin.",
+      "genericError": "Bir hata oluştu. Lütfen tekrar deneyin."
+    }
+  }
+}

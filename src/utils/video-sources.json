@@ -1,0 +1,22 @@
+{
+  "videoSources": [
+    {
+      "key": "movs",
+      "name": "movs",
+      "movieUrlPattern": "https://alkalcima.netlify.app/embed-movs/{id}",
+      "tvUrlPattern": "https://alkalcima.netlify.app/embed-movs/series/{id}/{season}/{episode}"
+    },
+    {
+      "key": "wecima",
+      "name": "Wecima",
+      "movieUrlPattern": "https://alkalcima.netlify.app/embed-wecima/{id}",
+      "tvUrlPattern": "https://alkalcima.netlify.app/embed-wecima/{id}/{season}/{episode}"
+    },
+    {
+      "key": "autoembed",
+      "name": "autoembed",
+      "movieUrlPattern": "https://alkalcima.netlify.app/embed-autoembed/{id}",
+      "tvUrlPattern": "https://alkalcima.netlify.app/embed-autoembed/series/{id}/{season}/{episode}"
+    }
+  ]
+}

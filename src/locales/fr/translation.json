@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Personnalisez votre expérience de visionnage : thème, langue, police et couleur d'accent.",
+    "appearance": "Apparence",
+    "language": "Langue",
+    "typography": "Typographie",
+    "theme": "Thème",
+    "dark": "Sombre",
+    "useSystemTheme": "Utiliser le thème système",
+    "accentColor": "Couleur d'accent",
+    "contentLanguage": "Langue du contenu",
+    "selectLanguage": "Sélectionner la langue",
+    "chooseLanguage": "Choisir la langue",
+    "languageDescription": "Utilisé pour récupérer les métadonnées et recommandations le cas échéant.",
+    "fontFamily": "Famille de police",
+    "chooseFont": "Choisir la police",
+    "selectFont": "Sélectionner la police",
+    "preview": "Aperçu du texte",
+    "typographyTips": "Conseils de typographie",
+    "tip1": "Utilisez les polices système pour de meilleures performances.",
+    "tip2": "Les polices serif comme Playfair améliorent les titres.",
+    "tip3": "Assurez un bon contraste avec votre couleur d'accent."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "cancelSelection": "Annuler la sélection",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "movies": "Films",
+    "tvShows": "Émissions TV",
+    "sports": "Sports",
+    "search": "Recherche",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "watchHistory": "Historique de visionnage",
+    "signOut": "Se déconnecter",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "trending": "Tendances"
+  }
+  ,
+  "auth": {
+    "login": "Connexion",
+    "signup": "Inscription",
+    "createAccountTitle": "Créer un compte",
+    "createAccountSubtitle": "Entrez votre e-mail ci-dessous pour créer votre compte",
+    "createAccount": "Créer un compte",
+    "creatingAccount": "Création du compte...",
+    "email": "E-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "orContinueWith": "Ou continuer avec",
+    "welcomeBackTitle": "Bon retour",
+    "signInSubtitle": "Connectez-vous à votre compte pour continuer",
+    "signingIn": "Connexion en cours...",
+    "errors": {
+      "invalidEmail": "Adresse e-mail invalide.",
+      "userDisabled": "Ce compte utilisateur a été désactivé.",
+      "userNotFound": "Aucun utilisateur trouvé avec cet e-mail.",
+      "wrongPassword": "Mot de passe incorrect.",
+      "tooManyRequests": "Trop de tentatives échouées. Veuillez réessayer plus tard.",
+      "genericError": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  }
+}
